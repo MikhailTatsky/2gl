@@ -1,18 +1,18 @@
 import assert from 'assert';
 import Light from '../../src/lights/Light';
-import AmbientLight from '../../src/lights/AmbientLight';
+import DirectionalLight from '../../src/lights/Directional';
 
-describe('AmbientLight', () => {
+describe('DirectionalLight', () => {
     describe('#constructor', () => {
         it('should inherited from Light', () => {
             const color = [0.1, 0.5, 0.7];
-            const light = new AmbientLight(color);
+            const light = new DirectionalLight(color);
             assert.ok(light instanceof Light);
         });
 
         it('should have same field', () => {
             const color = [0.1, 0.5, 0.7];
-            const light = new AmbientLight(color);
+            const light = new DirectionalLight(color);
             assert.deepEqual(light.color, color);
         });
     });

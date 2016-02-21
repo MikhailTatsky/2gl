@@ -3,7 +3,7 @@ import {slice, round} from '../utils';
 
 import Camera from '../../src/cameras/Camera';
 
-import OrthographicCamera from '../../src/cameras/OrthographicCamera';
+import OrthographicCamera from '../../src/cameras/Orthographic';
 
 describe('OrthographicCamera', () => {
     let camera, left, right, top, bottom, near, far;

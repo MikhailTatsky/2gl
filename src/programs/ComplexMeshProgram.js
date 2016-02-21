@@ -1,8 +1,8 @@
 import {complex as shader} from '../shaders';
 import {vec3, mat3} from 'gl-matrix';
 import Program from './Program';
-import AmbientLight from '../lights/AmbientLight';
-import DirectionalLight from '../lights/DirectionalLight';
+import AmbientLight from '../lights/Ambient';
+import DirectionalLight from '../lights/Directional';
 
 /**
  * Более сложная программа для {@link Mesh}.

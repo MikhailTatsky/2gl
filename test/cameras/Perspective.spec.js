@@ -3,7 +3,7 @@ import {slice} from '../utils';
 
 import Camera from '../../src/cameras/Camera';
 
-import PerspectiveCamera from '../../src/cameras/PerspectiveCamera';
+import PerspectiveCamera from '../../src/cameras/Perspective';
 
 describe('PerspectiveCamera', () => {
     let camera, fov, aspect, near, far;

@@ -1,7 +1,7 @@
 import {vec3, mat3} from 'gl-matrix';
 import Ray from './math/Ray';
-import OrthographicCamera from './cameras/OrthographicCamera';
-import PerspectiveCamera from './cameras/PerspectiveCamera';
+import OrthographicCamera from './cameras/Orthographic';
+import PerspectiveCamera from './cameras/Perspective';
 
 /**
  * Позволяет легко определять пересечения луча с объектами.
