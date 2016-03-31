@@ -76,6 +76,8 @@ class Program {
      * @param {Object3D} object
      */
     typifyForRender(typedObjects, object) {
+        typedObjects.transparent.push(object);
+        return;
         if (this.opacity === 1) {
             typedObjects.common.push(object);
         } else {
