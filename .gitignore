@@ -1,8 +1,3 @@
 .idea
 node_modules
 npm-debug.log
-coverage
-docs
-dist
-*.vert.js
-*.frag.js
